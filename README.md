@@ -22,7 +22,7 @@ import sqlite3
 from pathlib import Path
 Installation
 # Cloner ou télécharger le fichier
-curl -O https://raw.githubusercontent.com/[votre-repo]/docs2JSON/main/docs2json.py
+curl -O https://raw.githubusercontent.com/loulou84320/docs2JSON/main/docs2json.py
 
 # Ou créer le fichier directement
 touch docs2json.py
