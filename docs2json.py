@@ -60,7 +60,7 @@ def scan_project(root_path, output_file="project_content.json"):
     ignored_extensions = {'.exe', '.dll', '.so', '.dylib', '.bin', '.img', '.iso', 
                          '.zip', '.rar', '.tar', '.gz', '.7z', '.pdf', '.doc', '.docx',
                          '.png', '.jpg', '.jpeg', '.gif', '.bmp', '.ico', '.svg',
-                         '.mp3', '.mp4', '.avi', '.mov', '.wav', '.flv'}
+                         '.mp3', '.mp4', '.avi', '.mov', '.wav', '.flv', '.ttf'}
     
     # Dossiers à ignorer
     ignored_dirs = {'node_modules', '.git', '__pycache__', '.vscode', '.idea', 
@@ -147,3 +147,4 @@ if __name__ == "__main__":
     
     # Scanner le projet
     scan_project(project_path, output_name)
+
